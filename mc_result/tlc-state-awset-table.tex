@@ -1,0 +1,27 @@
+% file: tlc-state-awset-table.tex
+
+% \usepackage{graphicx}
+\begin{table}[t]
+  \caption{Model checking results of verifying that StateAWSet satisfies $SEC$.}
+  \label{tbl:tlc-stateawset}
+  \resizebox{\textwidth}{!}{%
+    \centering
+    \renewcommand*{\arraystretch}{1.1}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \textbf{\incell{TLC Model}{$(\# Replicas, \# Data)$}} & \textbf{Diameter} & \textbf{\# States} & \textbf{\# Distinct States} 
+    & \textbf{\incell{Checking Time}{$(hh:mm:ss)$}} \\ \hline
+    \hline
+    $(2, 2)$     & $14$       & $215691981$        & $100000043$        & $0:18:10$    \\ \hline
+    $(2, 3)$     & $13$       & $218832293$        & $100000054$        & $0:22:29$    \\ \hline
+    $(2, 4)$     & $12$       & $238758933$        & $100000062$        & $0:44:08$    \\ \hline
+    $(2, 5)$     & $13$       & $275918637$        & $100000067$        & $2:40:24$    \\ \hline
+    $(3, 2)$     & $13$       & $290875497$        & $100000069$        & $0:39:03$    \\ \hline
+    $(3, 3)$     & $12$       & $302058508$        & $100000060$        & $0:57:46$    \\ \hline
+    $(3, 4)$     & $12$       & $331012172$        & $100000064$        & $2:16:21$    \\ \hline
+    $(4, 2)$     & $12$       & $368615463$        & $100000048$        & $2:00:48$    \\ \hline
+    $(4, 3)$     & $12$       & $383242663$        & $100000045$        & $3:34:57$    \\ \hline
+    $(4, 4)$     & $12$       & $422421793$        & $100000059$        & $10:00:50$   \\ \hline
+    \end{tabular}%
+  }
+\end{table}
