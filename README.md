@@ -3,7 +3,7 @@
 
 ## Model Checking Experiments
 We write a script to automatically conduct comprehensive model checking experiments
-with the [`CRDT-TLA+`](https://github.com/JYwellin/CRDT-TLA).
+with the [`CRDT-TLA`](https://github.com/JYwellin/CRDT-TLA).
 
 ### Requirements
 This has been tested on Linux (with JDK 8), but *not* yet on Windows or Mac.
